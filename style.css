@@ -46,6 +46,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    p span {
+        display: block; /* Makes each span take up a full line */
+        margin-bottom: 5px; /* Optional: adds a little space between each line */
+    }
     footer {
         position: relative; /* Change footer position on smaller screens */
     }

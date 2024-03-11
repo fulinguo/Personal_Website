@@ -54,9 +54,9 @@ footer {
 #profile-photo {
     width: 150px; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: makes the photo circular */
     margin-right: 20px;
 }
+
 
 a {
     display: inline-block; /* For proper spacing and alignment */

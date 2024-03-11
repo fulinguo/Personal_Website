@@ -13,6 +13,7 @@ header {
     background: #333;
     color: #fff;
     padding-top: 2rem;
+    padding-left: 20px; 
     min-height: 70px;
     border-bottom: #0779e4 3px solid;
 }
@@ -36,9 +37,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
-    padding: 20px;
-}
+
 
 footer {
     background: #333;
@@ -58,7 +57,7 @@ footer {
 #profile-photo {
     float: left; /* Use 'right' to float it to the right */
     margin-right: 15px; /* Adds space between the image and the following content */
-    width: 120px;
+    width: 300px;
     height: auto;
 }
 

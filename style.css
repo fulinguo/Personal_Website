@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0 20px; /* Provides padding on the left and right */
     box-sizing: border-box;
-    margin-bottom: 60px; /* Adjusted to ensure content is not hidden by the footer */
+    margin-bottom: 80px; /* Adjusted to ensure content is not hidden by the footer */
 }
 
 header {
@@ -42,7 +42,7 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -63,6 +63,7 @@ footer {
 @media (max-width: 768px) {
     body {
         padding: 10px; /* Smaller padding for smaller screens */
+        margin-bottom: 20px; 
     }
 
     #profile-photo {

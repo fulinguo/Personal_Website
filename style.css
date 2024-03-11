@@ -75,3 +75,8 @@ a:hover {
     clear: both; /* This ensures it appears below floated elements */
     /* Other styling */
 }
+
+body, html {
+    height: 100%;
+    overflow-y: auto; /* This allows vertical scrolling */
+}

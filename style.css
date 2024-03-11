@@ -46,6 +46,21 @@ footer {
 }
 
 @media (max-width: 768px) {
+    footer {
+        position: relative; /* Change footer position on smaller screens */
+    }
+}
+
+#profile-photo {
+    float: left; 
+    margin-right: 15px; 
+    width: 100%; /* Make the image responsive */
+    max-width: 300px; /* Maximum size of the image */
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
     body {
         padding: 10px; /* Smaller padding for smaller screens */
     }

@@ -46,3 +46,26 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#about, #contact {
+    margin-left: 20px; /* Adds space from the left */
+}
+
+#profile-photo {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the photo circular */
+    margin-right: 20px;
+}
+
+a {
+    display: inline-block; /* For proper spacing and alignment */
+    margin-top: 10px; /* Adds some space above the link */
+    color: #0779e4; /* Link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for better user experience */
+}
+

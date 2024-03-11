@@ -52,6 +52,13 @@ footer {
 }
 
 
+#profile-photo {
+    float: left; /* Use 'right' to float it to the right */
+    margin-right: 15px; /* Adds space between the image and the following content */
+    width: 120px;
+    height: auto;
+}
+
 
 
 a {

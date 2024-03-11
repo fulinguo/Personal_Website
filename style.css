@@ -2,18 +2,15 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 0 20px; /* Provides padding on the left and right */
     box-sizing: border-box;
-    padding: 20px; 
-    margin-bottom: 100px;
+    margin-bottom: 60px; /* Adjusted to ensure content is not hidden by the footer */
 }
-
-
 
 header {
     background: #333;
     color: #fff;
-    padding: 20px; 
+    padding: 20px;
     min-height: 70px;
     border-bottom: #0779e4 3px solid;
 }
@@ -37,8 +34,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-
-
 footer {
     position: fixed;
     left: 0;
@@ -50,28 +45,36 @@ footer {
     padding: 10px 0;
 }
 
-
-
 @media (max-width: 768px) {
-    .content {
-        flex-direction: column;
+    body {
+        padding: 10px; /* Smaller padding for smaller screens */
     }
 
-    .text {
-        margin-left: 0; /* Reset margin for smaller screens */
-        margin-top: 20px; /* Add some space above the text */
+    #profile-photo {
+        float: none; /* Stop floating on smaller screens */
+        display: block; /* Center the image */
+        margin: 0 auto 20px; /* Adjust margin for spacing and centering */
+        width: 80%; /* Make the image responsive */
+        height: auto;
+    }
+
+    footer {
+        position: relative; /* Adjust footer position on smaller screens */
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        display: block; /* Stack nav items vertically on smaller screens */
+        margin-right: 0;
+        text-align: center; /* Center-align the nav items */
+    }
+
+    .content, .text {
+        /* Reset or adjust styles as necessary for smaller screens */
+        margin-left: 0;
+        margin-top: 20px;
     }
 }
-
-
-#profile-photo {
-    float: left; /* Use 'right' to float it to the right */
-    margin-right: 15px; /* Adds space between the image and the following content */
-    width: 300px;
-    height: auto;
-}
-
-
 
 a {
     display: inline-block; /* For proper spacing and alignment */
@@ -85,7 +88,6 @@ a:hover {
 }
 
 #research {
-    clear: both; /* This ensures it appears below floated elements */
-    /* Other styling */
+    clear: both; /* Ensures it appears below floated elements */
+    /* Additional styling as needed */
 }
-

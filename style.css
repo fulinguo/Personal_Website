@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0 20px; /* Provides padding on the left and right */
     box-sizing: border-box;
-    margin-bottom: 80px; /* Adjusted to ensure content is not hidden by the footer */
+    margin-bottom: 100px; /* Adjusted to ensure content is not hidden by the footer */
 }
 
 header {

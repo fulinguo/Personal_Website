@@ -111,3 +111,27 @@ a:hover {
     clear: both; /* Ensures it appears below floated elements */
     /* Additional styling as needed */
 }
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111010;
+    font-size: 16px;
+  }
+  
